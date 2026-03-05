@@ -21,3 +21,6 @@ PARAGRAPH
 
 LINKS
 <a href="https://www.example.com">Link Text </a>
+
+IMAGES
+<img src="image.jpg"alt="Description of Image">
