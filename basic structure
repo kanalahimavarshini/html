@@ -48,3 +48,6 @@ TABLES
         <td>Data 2</td>
     </tr>       
 </table>
+
+COMMENTS
+<!--This is a comment-->
