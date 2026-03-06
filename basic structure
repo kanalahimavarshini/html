@@ -76,3 +76,8 @@ VIDEO
 <video controls width=""320" height="240">
 <source src="movie.mp4"type="video/mp4">
 </video>
+
+HTML FORMATTING
+<b> -Bold Text
+<i> -italic 
+    
