@@ -84,3 +84,8 @@ HTML FORMATTING
         <sub>- subscript|bottom
             <del>-deleted text crossline
                 <mark> highlighted text
+
+HTML INPUT TYPES
+<input type="text">
+<input type="password">
+<input type="number">
