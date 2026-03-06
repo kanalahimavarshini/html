@@ -80,4 +80,7 @@ VIDEO
 HTML FORMATTING
 <b> -Bold Text
 <i> -italic 
-    
+    <sup> -superscript|top
+        <sub>- subscript|bottom
+            <del>-deleted text crossline
+                <mark> highlighted text
