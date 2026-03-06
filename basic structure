@@ -59,3 +59,10 @@ SPECIAL CHARACTERS
 &gt;-greater than symbol ">"
 &quot;-double quotation mark """"
 &nbsp;- non breaking space
+
+SEMANTIC ELEMENTS
+<header> Header</header>
+<nav> Navigation</nav>
+<section> Section</section>
+<article> Aside</article>
+<footer> Footer</footer>
