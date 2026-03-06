@@ -95,3 +95,6 @@ HTML INPUT TYPES
 <input type="color">
 <input type="file">
 <input type="reset">
+<input type="radio">
+<input type="submit">
+<input type="button">
