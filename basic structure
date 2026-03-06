@@ -51,3 +51,11 @@ TABLES
 
 COMMENTS
 <!--This is a comment-->
+
+SPECIAL CHARACTERS
+&copy;-copyright symbol 
+&amp;-ampersand character "&"
+&alt;-less than symbol "<"
+&gt;-greater than symbol ">"
+&quot;-double quotation mark """"
+&nbsp;- non breaking space
