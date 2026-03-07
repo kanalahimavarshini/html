@@ -192,3 +192,21 @@ HTML INPUT TYPES
   </a>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiple Examples</title>
+</head>
+<body>
+  <h2>Static Image</h2>
+  <img src="https://via.placeholder.com/200x150?text=Static" alt="Static image">
+
+  <h2>Image Link</h2>
+  <a href="https://www.google.com">
+    <img src="https://via.placeholder.com/200x150?text=Click+Me" alt="Google link">
+  </a>
+
+  <h2>Text Link</h2>
+  <p>Go to <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>.</p>
+</body>
+</html>
