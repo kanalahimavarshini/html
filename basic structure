@@ -181,3 +181,14 @@ HTML INPUT TYPES
   <a href="https://www.example.com">Click here to visit Example.com</a>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Link</title>
+</head>
+<body>
+  <a href="https://www.example.com" target="_blank">
+    <img src="https://via.placeholder.com/300x200" alt="Clickable image" width="300" height="200">
+  </a>
+</body>
+</html>
