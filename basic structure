@@ -108,3 +108,19 @@ HTML INPUT TYPES
     <p>This is my first web page.</p>
   </body>
 </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Page</title>
+  </head>
+  <body>
+    <h1>Main Heading</h1>
+    <h2>Subheading</h2>
+
+    <p>Welcome to my sample page. I am learning HTML.</p>
+
+    <a href="https://www.example.com" target="_blank">
+      Visit Example Website
+    </a>
+  </body>
+</html>
