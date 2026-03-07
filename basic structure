@@ -124,3 +124,20 @@ HTML INPUT TYPES
     </a>
   </body>
 </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image and List</title>
+  </head>
+  <body>
+    <h1>My Favorite Fruits</h1>
+
+    <img src="https://via.placeholder.com/200" alt="Sample image">
+
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Mango</li>
+    </ul>
+  </body>
+</html>
