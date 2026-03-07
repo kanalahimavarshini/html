@@ -210,3 +210,28 @@ HTML INPUT TYPES
   <p>Go to <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Table</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>Keerthana</td>
+      <td>22</td>
+      <td>Bengaluru</td>
+    </tr>
+    <tr>
+      <td>Ravi</td>
+      <td>25</td>
+      <td>Mumbai</td>
+    </tr>
+  </table>
+</body>
+</html>
