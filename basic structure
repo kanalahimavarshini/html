@@ -98,3 +98,13 @@ HTML INPUT TYPES
 <input type="radio">
 <input type="submit">
 <input type="button">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my first web page.</p>
+  </body>
+</html>
