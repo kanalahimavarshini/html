@@ -270,3 +270,25 @@ HTML INPUT TYPES
   </table>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spanning Table</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <th colspan="2">Fruits</th>
+      <th rowspan="3">Total</th>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Mango</td>
+      <td>5</td>
+    </tr>
+  </table>
+</body>
+</html>
