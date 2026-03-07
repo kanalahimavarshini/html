@@ -172,3 +172,12 @@ HTML INPUT TYPES
   <img src="https://via.placeholder.com/300x200" alt="Sample image" width="300" height="200">
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Link</title>
+</head>
+<body>
+  <a href="https://www.example.com">Click here to visit Example.com</a>
+</body>
+</html>
