@@ -411,3 +411,15 @@ This is third line.</p>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Select Skills</h2>
+
+<input type="checkbox"> C Programming<br>
+<input type="checkbox"> HTML<br>
+<input type="checkbox"> Java<br>
+
+</body>
+</html>
