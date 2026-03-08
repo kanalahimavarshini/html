@@ -327,3 +327,16 @@ Password:<br>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text Formatting</h2>
+
+<b>Bold Text</b><br>
+<i>Italic Text</i><br>
+<u>Underline Text</u><br>
+<strong>Important Text</strong>
+
+</body>
+</html>
