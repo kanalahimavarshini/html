@@ -340,3 +340,13 @@ Password:<br>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Visit Website</h2>
+
+<a href="https://www.google.com">Click here to visit Google</a>
+
+</body>
+</html>
