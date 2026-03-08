@@ -434,3 +434,16 @@ This is third line.</p>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Navigation Menu</h2>
+
+<a href="#">Home</a> |
+<a href="#">About</a> |
+<a href="#">Services</a> |
+<a href="#">Contact</a>
+
+</body>
+</html>
