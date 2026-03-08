@@ -381,3 +381,13 @@ Email: <input type="email"><br><br>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Button Example</h2>
+
+<button>Click Me</button>
+
+</body>
+</html>
