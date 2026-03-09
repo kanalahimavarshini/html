@@ -136,3 +136,23 @@ Message:<br>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My Resume</h1>
+
+<h2>Name: Himavarshini</h2>
+
+<h3>Skills</h3>
+<ul>
+<li>C Programming</li>
+<li>HTML</li>
+<li>DSA</li>
+</ul>
+
+<h3>Education</h3>
+<p>Bachelor Degree</p>
+
+</body>
+</html>
