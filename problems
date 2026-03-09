@@ -156,3 +156,66 @@ Message:<br>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Result System</title>
+</head>
+
+<body>
+
+<h1 align="center">Student Result System</h1>
+
+<table border="1" align="center" cellpadding="10">
+
+<tr>
+<th>Student Name</th>
+<td><input type="text" placeholder="Enter Name"></td>
+</tr>
+
+<tr>
+<th>Roll Number</th>
+<td><input type="text" placeholder="Enter Roll Number"></td>
+</tr>
+
+<tr>
+<th>Maths</th>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<th>Physics</th>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<th>C Programming</th>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<th>English</th>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<th>Total Marks</th>
+<td><input type="text" placeholder="Total"></td>
+</tr>
+
+<tr>
+<th>Result</th>
+<td><input type="text" placeholder="Pass/Fail"></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<button>Submit</button>
+<button>Reset</button>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
