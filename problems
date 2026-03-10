@@ -324,3 +324,15 @@ function goNext() {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Home Button Example</h2>
+
+<a href="index.html">
+<button>🏠 Home</button>
+</a>
+
+</body>
+</html>
