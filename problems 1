@@ -272,3 +272,58 @@ document.getElementById("message").innerHTML="❌ Invalid OTP";
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Certificate</title>
+
+<style>
+
+body{
+font-family: Arial;
+background-color:#f2f2f2;
+}
+
+.certificate{
+width:700px;
+border:5px solid gold;
+padding:30px;
+margin:100px auto;
+text-align:center;
+background:white;
+}
+
+h1{
+color:darkblue;
+}
+
+h2{
+color:green;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="certificate">
+
+<h1>Certificate of Completion</h1>
+
+<p>This is to certify that</p>
+
+<h2>Himavarshini</h2>
+
+<p>has successfully completed the course</p>
+
+<h3>Web Development Training</h3>
+
+<p>Date: 10 March 2026</p>
+
+<p>Instructor Signature</p>
+
+</div>
+
+</body>
+</html>
