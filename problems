@@ -291,3 +291,15 @@ function goBack() {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Next Button Example</h2>
+
+<a href="page2.html">
+<button>Next</button>
+</a>
+
+</body>
+</html>
