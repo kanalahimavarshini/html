@@ -262,3 +262,24 @@ recognition.start();
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Back Button</title>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+</head>
+
+<body>
+
+<h2>Back Button Example</h2>
+
+<button onclick="goBack()">Back</button>
+
+</body>
+</html>
