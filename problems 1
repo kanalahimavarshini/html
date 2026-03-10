@@ -128,3 +128,16 @@ border:none;
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Password Input Example</h2>
+
+<form>
+Password:
+<input type="password" placeholder="Enter Password">
+</form>
+
+</body>
+</html>
