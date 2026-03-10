@@ -303,3 +303,24 @@ function goBack() {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Next Button</title>
+
+<script>
+function goNext() {
+  window.location.href = "page2.html";
+}
+</script>
+
+</head>
+
+<body>
+
+<h2>Next Page Button</h2>
+
+<button onclick="goNext()">Next</button>
+
+</body>
+</html>
