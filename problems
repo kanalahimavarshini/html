@@ -252,3 +252,13 @@ recognition.start();
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Back Button Example</h2>
+
+<button onclick="history.back()">Go Back</button>
+
+</body>
+</html>
