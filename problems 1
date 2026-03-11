@@ -338,3 +338,49 @@ Password:
 <input type="submit">
 
 </form>
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My Website</title>
+</head>
+
+<body>
+
+<h1>Welcome to My Website</h1>
+
+<p>This is a simple webpage using HTML tags.</p>
+
+<a href="https://www.google.com">Visit Google</a>
+
+<h2>My Skills</h2>
+<ul>
+<li>HTML</li>
+<li>C Programming</li>
+<li>DSA</li>
+</ul>
+
+<h2>Student Table</h2>
+
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Course</th>
+</tr>
+
+<tr>
+<td>Himavarshini</td>
+<td>Web Development</td>
+</tr>
+</table>
+
+<h2>Contact Form</h2>
+
+<form>
+Name: <input type="text"><br><br>
+Email: <input type="email"><br><br>
+<button>Submit</button>
+</form>
+
+</body>
+</html>
