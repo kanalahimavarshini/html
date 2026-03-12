@@ -13,3 +13,20 @@ int main(){
         printf("\n");
     }
 }
+#include <stdio.h>
+
+int main(){
+    int arr[5]={10,20,4,45,99};
+    int largest=0,second=0;
+
+    for(int i=0;i<5;i++){
+        if(arr[i]>largest){
+            second=largest;
+            largest=arr[i];
+        }
+        else if(arr[i]>second && arr[i]!=largest)
+            second=arr[i];
+    }
+
+    printf("Second Largest = %d",second);
+}
