@@ -319,3 +319,12 @@ int main(){
 
     printf("GCD = %d",gcd);
 }
+#include <stdio.h>
+
+int main(){
+    int a=12,b=15,lcm;
+
+    lcm=(a*b)/3;
+
+    printf("LCM = %d",lcm);
+}
