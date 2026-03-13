@@ -155,3 +155,20 @@ int main(){
     for(int i=0;i<=top;i++)
         printf("%d ",stack[i]);
 }
+#include <stdio.h>
+
+int queue[5];
+int front=0,rear=-1;
+
+void enqueue(int x){
+    rear++;
+    queue[rear]=x;
+}
+
+int main(){
+    enqueue(5);
+    enqueue(10);
+
+    for(int i=front;i<=rear;i++)
+        printf("%d ",queue[i]);
+}
