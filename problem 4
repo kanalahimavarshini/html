@@ -183,3 +183,33 @@ int main() {
 
     return 0;
 }
+#include <stdio.h>
+
+int stack[5];
+int *top = stack - 1;
+
+void push(int x){
+    if(top == stack + 4)
+        printf("Stack Overflow\n");
+    else{
+        top++;
+        *top = x;
+    }
+}
+
+void display(){
+    int *temp = stack;
+
+    while(temp <= top){
+        printf("%d ",*temp);
+        temp++;
+    }
+}
+
+int main(){
+    push(10);
+    push(20);
+    push(30);
+
+    display();
+}
