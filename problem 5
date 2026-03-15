@@ -23,3 +23,24 @@ int main(){
 
     printf("Nodes = %d",count);
 }
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node{
+    int data;
+    struct node *next;
+};
+
+int main(){
+    struct node *head;
+    int key=10;
+
+    head=(struct node*)malloc(sizeof(struct node));
+    head->data=10;
+    head->next=NULL;
+
+    if(head->data==key)
+        printf("Element found");
+    else
+        printf("Element not found");
+}
