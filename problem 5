@@ -68,3 +68,27 @@ int main(){
 
     printf("List reversed");
 }
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node{
+    int data;
+    struct node *next;
+};
+
+int main(){
+    struct node *slow,*fast;
+
+    slow=(struct node*)malloc(sizeof(struct node));
+    slow->data=10;
+    slow->next=NULL;
+
+    fast=slow;
+
+    while(fast!=NULL && fast->next!=NULL){
+        slow=slow->next;
+        fast=fast->next->next;
+    }
+
+    printf("Middle element found");
+}
