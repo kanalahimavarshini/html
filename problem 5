@@ -44,3 +44,27 @@ int main(){
     else
         printf("Element not found");
 }
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node{
+    int data;
+    struct node *next;
+};
+
+int main(){
+    struct node *prev=NULL,*current=NULL,*next=NULL;
+
+    current=(struct node*)malloc(sizeof(struct node));
+    current->data=10;
+    current->next=NULL;
+
+    while(current!=NULL){
+        next=current->next;
+        current->next=prev;
+        prev=current;
+        current=next;
+    }
+
+    printf("List reversed");
+}
