@@ -283,3 +283,22 @@ void deleteNode(struct node **head,int key){
     prev->next=temp->next;
     free(temp);
 }
+struct node* mergeSort(struct node* head){
+    if(!head || !head->next)
+        return head;
+
+    struct node *mid=head,*fast=head->next;
+
+    while(fast && fast->next){
+        mid=mid->next;
+        fast=fast->next->next;
+    }
+
+    struct node *half=mid->next;
+    mid->next=NULL;
+
+    struct node *left=mergeSort(head);
+    struct node *right=mergeSort(half);
+
+    return merge(left,right);
+}
