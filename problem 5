@@ -189,3 +189,15 @@ void removeDuplicates(struct node *head){
         ptr1=ptr1->next;
     }
 }
+#include <stdio.h>
+
+int length(struct node *head){
+    int count=0;
+
+    while(head!=NULL){
+        count++;
+        head=head->next;
+    }
+
+    return count;
+}
