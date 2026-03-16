@@ -246,3 +246,23 @@ void middle(struct node *head){
 
     printf("Middle = %d",slow->data);
 }
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node{
+    int data;
+    struct node *next;
+};
+
+int main(){
+    struct node *head,*temp;
+
+    head=(struct node*)malloc(sizeof(struct node));
+    head->data=10;
+
+    temp=(struct node*)malloc(sizeof(struct node));
+    temp->data=20;
+
+    head->next=temp;
+    temp->next=head;
+}
