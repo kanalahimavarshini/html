@@ -236,3 +236,13 @@ struct node* reverse(struct node *head){
 
     return prev;
 }
+void middle(struct node *head){
+    struct node *slow=head,*fast=head;
+
+    while(fast!=NULL && fast->next!=NULL){
+        slow=slow->next;
+        fast=fast->next->next;
+    }
+
+    printf("Middle = %d",slow->data);
+}
