@@ -27,3 +27,29 @@ int main(){
 
     dequeue();
 }
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node{
+    int data;
+    struct node *next;
+};
+
+int main(){
+    struct node *head=NULL,*temp;
+
+    head=(struct node*)malloc(sizeof(struct node));
+    head->data=10;
+    head->next=NULL;
+
+    temp=(struct node*)malloc(sizeof(struct node));
+    temp->data=20;
+    temp->next=NULL;
+
+    head->next=temp;
+
+    while(head!=NULL){
+        printf("%d ",head->data);
+        head=head->next;
+    }
+}
