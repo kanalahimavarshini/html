@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+    int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
+    int n = 9;
+
+    int max_so_far = arr[0];
+    int curr_max = arr[0];
+
+    for(int i=1;i<n;i++){
+        if(arr[i] > curr_max + arr[i])
+            curr_max = arr[i];
+        else
+            curr_max = curr_max + arr[i];
+
+        if(curr_max > max_so_far)
+            max_so_far = curr_max;
+    }
+
+    printf("Maximum Sum = %d", max_so_far);
+}
