@@ -308,3 +308,22 @@ int main(){
 
     printf("Subset Exists = %d",dp[n][sum]);
 }
+#include <stdio.h>
+
+int max(int a,int b){ return (a>b)?a:b; }
+
+int main(){
+    int price[]={1,5,8,9};
+    int n=4, dp[10];
+
+    dp[0]=0;
+
+    for(int i=1;i<=n;i++){
+        dp[i]=0;
+        for(int j=0;j<i;j++){
+            dp[i]=max(dp[i], price[j]+dp[i-j-1]);
+        }
+    }
+
+    printf("Max Profit = %d",dp[n]);
+}
