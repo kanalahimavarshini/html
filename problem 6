@@ -286,3 +286,25 @@ int main(){
 
     printf("Min Multiplications = %d",dp[1][n-1]);
 }
+#include <stdio.h>
+
+int main(){
+    int set[]={3,34,4,12,5,2};
+    int sum=9, n=6;
+
+    int dp[10][10];
+
+    for(int i=0;i<=n;i++)
+        dp[i][0]=1;
+
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=sum;j++){
+            if(set[i-1] <= j)
+                dp[i][j]=dp[i-1][j] || dp[i-1][j-set[i-1]];
+            else
+                dp[i][j]=dp[i-1][j];
+        }
+    }
+
+    printf("Subset Exists = %d",dp[n][sum]);
+}
