@@ -233,3 +233,82 @@ function validateForm(){
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Validation</title>
+    <style>
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Input Validation Form</h2>
+
+<form onsubmit="return validate()">
+
+    Name: <input type="text" id="name">
+    <span id="nameError" class="error"></span><br><br>
+
+    Email: <input type="text" id="email">
+    <span id="emailError" class="error"></span><br><br>
+
+    Phone: <input type="text" id="phone">
+    <span id="phoneError" class="error"></span><br><br>
+
+    Password: <input type="password" id="password">
+    <span id="passError" class="error"></span><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<script>
+function validate(){
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value;
+    let password = document.getElementById("password").value;
+
+    let valid = true;
+
+    // Clear previous errors
+    document.getElementById("nameError").innerText = "";
+    document.getElementById("emailError").innerText = "";
+    document.getElementById("phoneError").innerText = "";
+    document.getElementById("passError").innerText = "";
+
+    // Name validation
+    if(name === ""){
+        document.getElementById("nameError").innerText = "Name is required";
+        valid = false;
+    }
+
+    // Email validation (basic)
+    if(email.indexOf("@") === -1 || email.indexOf(".") === -1){
+        document.getElementById("emailError").innerText = "Enter valid email";
+        valid = false;
+    }
+
+    // Phone validation (10 digits)
+    if(phone.length != 10 || isNaN(phone)){
+        document.getElementById("phoneError").innerText = "Enter valid 10-digit phone";
+        valid = false;
+    }
+
+    // Password validation
+    if(password.length < 6){
+        document.getElementById("passError").innerText = "Minimum 6 characters";
+        valid = false;
+    }
+
+    return valid;
+}
+</script>
+
+</body>
+</html>
