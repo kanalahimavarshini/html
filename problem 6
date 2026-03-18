@@ -399,3 +399,21 @@ int main(){
 
     printf("Can Partition = %d",dp[n][sum/2]);
 }
+#include <stdio.h>
+
+int main(){
+    int n=12345, even=0, odd=0, r;
+
+    while(n>0){
+        r=n%10;
+
+        if(r%2==0)
+            even++;
+        else
+            odd++;
+
+        n/=10;
+    }
+
+    printf("Even=%d Odd=%d",even,odd);
+}
