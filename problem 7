@@ -336,3 +336,27 @@ int main(){
 
     printf("Max sum = %d",max);
 }
+#include <stdio.h>
+
+int main(){
+    char str[]="abcabcbb";
+    int max=0;
+
+    for(int i=0;str[i];i++){
+        int visited[256]={0};
+        int len=0;
+
+        for(int j=i;str[j];j++){
+            if(visited[str[j]])
+                break;
+
+            visited[str[j]]=1;
+            len++;
+
+            if(len>max)
+                max=len;
+        }
+    }
+
+    printf("Length = %d",max);
+}
