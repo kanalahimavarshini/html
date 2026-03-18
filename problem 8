@@ -312,3 +312,89 @@ function validate(){
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regex Validation</title>
+    <style>
+        .error { color: red; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+<h2>Regex Validation Form</h2>
+
+<form onsubmit="return validate()">
+
+    Name: <input type="text" id="name">
+    <span id="nameError" class="error"></span><br><br>
+
+    Email: <input type="text" id="email">
+    <span id="emailError" class="error"></span><br><br>
+
+    Phone: <input type="text" id="phone">
+    <span id="phoneError" class="error"></span><br><br>
+
+    Password: <input type="password" id="password">
+    <span id="passError" class="error"></span><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<script>
+function validate(){
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value;
+    let password = document.getElementById("password").value;
+
+    let valid = true;
+
+    // Regex patterns
+    let nameRegex = /^[A-Za-z ]{3,}$/;
+    let emailRegex = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+    let phoneRegex = /^[0-9]{10}$/;
+    let passRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{6,}$/;
+
+    // Clear errors
+    document.getElementById("nameError").innerText = "";
+    document.getElementById("emailError").innerText = "";
+    document.getElementById("phoneError").innerText = "";
+    document.getElementById("passError").innerText = "";
+
+    // Name
+    if(!name.match(nameRegex)){
+        document.getElementById("nameError").innerText =
+        "Only letters, min 3 characters";
+        valid = false;
+    }
+
+    // Email
+    if(!email.match(emailRegex)){
+        document.getElementById("emailError").innerText =
+        "Enter valid email (example@mail.com)";
+        valid = false;
+    }
+
+    // Phone
+    if(!phone.match(phoneRegex)){
+        document.getElementById("phoneError").innerText =
+        "Enter 10-digit number";
+        valid = false;
+    }
+
+    // Password
+    if(!password.match(passRegex)){
+        document.getElementById("passError").innerText =
+        "Min 6 chars, 1 uppercase, 1 lowercase, 1 number";
+        valid = false;
+    }
+
+    return valid;
+}
+</script>
+
+</body>
+</html>
