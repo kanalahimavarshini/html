@@ -382,3 +382,22 @@ int main(){
     for(int i=0;i<n;i++)
         printf("%d ",arr[i]);
 }
+#include <stdio.h>
+
+struct node{
+    int data;
+    struct node *next;
+};
+
+int detect(struct node *head){
+    struct node *slow=head,*fast=head;
+
+    while(fast && fast->next){
+        slow=slow->next;
+        fast=fast->next->next;
+
+        if(slow==fast)
+            return 1;
+    }
+    return 0;
+}
