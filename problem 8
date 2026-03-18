@@ -86,3 +86,27 @@ function validate(){
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="count">0</h2>
+<button onclick="inc()">+</button>
+<button onclick="dec()">-</button>
+
+<script>
+let c = 0;
+
+function inc(){
+  c++;
+  document.getElementById("count").innerText = c;
+}
+
+function dec(){
+  c--;
+  document.getElementById("count").innerText = c;
+}
+</script>
+
+</body>
+</html>
